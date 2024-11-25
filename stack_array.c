@@ -1,5 +1,7 @@
 //Implement a stack using arrays
 
+//need to modify the code so that it handles multiple stacks instead of just one global stack
+
 #include <stdio.h>
 
 #define STACK_LENGTH 5

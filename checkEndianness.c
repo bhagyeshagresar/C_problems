@@ -32,7 +32,7 @@ void mem_layout(){
     byte = (char*)&num;
 
     for(int i = 0; i < sizeof(num); i++){
-        printf("Byte pos: %d, content: %u \n", i, byte[i]);
+        printf("Byte pos: %d, content: %02x \n", i, byte[i]);
     }
 
 }
